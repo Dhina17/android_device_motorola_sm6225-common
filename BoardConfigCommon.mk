@@ -5,3 +5,6 @@
 #
 
 COMMON_PATH := device/motorola/sm6225-common
+
+# Platform
+TARGET_BOARD_PLATFORM := bengal
