@@ -1,0 +1,34 @@
+# CLEAN UP NEEDED. DO NOT MERGE
+
+# Audio
+persist.audio.endcall.delay=250
+audio.record.delay=180
+ro.audio.monitorWindowRotation=true
+af.fast_track_multiplier=1
+audio.deep_buffer.media=true
+audio.sys.noisy.broadcast.delay=500
+audio.sys.mute.latency.factor=2
+audio.sys.routing.latency=0
+audio.sys.offload.pstimeout.secs=3
+ro.af.client_heap_size_kbyte=7168
+media.stagefright.audio.deep=false
+aaudio.mmap_policy=2
+aaudio.mmap_exclusive_policy=2
+aaudio.hw_burst_min_usec=2000
+
+# Media
+vendor.mm.enable.qcom_parser=33559074
+
+# Radio
+ro.telephony.default_network=10,10
+ro.vendor.radio.imei.sv=4
+ril.subscription.types=RUIM
+
+# Misc
+persist.mot_bt.aptx_cert=true
+ro.support_one_handed_mode=true
+ro.config.use_compaction=true
+ro.config.compact_action_1=4
+ro.config.compact_action_2=2
+ro.fpsensor.position=1
+#ro.vendor.product.display=moto g42
